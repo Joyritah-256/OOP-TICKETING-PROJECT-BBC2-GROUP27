@@ -1,0 +1,8 @@
+// for loop
+//used when you know the exact 
+of times you want something to
+happen
+//and now we want to offer this discount for only the first 10 members
+
+for(a=1;a<=10;a++)
+System.out.println("Ticket 00"+a);
