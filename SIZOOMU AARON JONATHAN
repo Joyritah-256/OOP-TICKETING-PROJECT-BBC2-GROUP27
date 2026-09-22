@@ -1,0 +1,11 @@
+//while loop
+		//used when you don't know how many times something will actually repeat
+		// for example selling tickets until the finish
+		
+		int availableTickets=50;
+		int takenTickets=10;
+		while(availableTickets >=takenTickets) {
+			availableTickets=availableTickets-takenTickets;
+			System.out.println("Sold 10 tickets.Remaining:"+availableTickets);
+		}
+		System.out.println("Tickets sold out!");
